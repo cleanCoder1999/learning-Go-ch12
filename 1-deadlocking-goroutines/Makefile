@@ -1,7 +1,7 @@
 .DEFAULT := build
 
 
-.PHONY: fmt, vet, build, clean, generate
+.PHONY: fmt, vet, build, clean, generate, staticcheck
 
 fmt:
 	go fmt ./...
